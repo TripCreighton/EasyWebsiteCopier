@@ -1,5 +1,3 @@
-package test;
-
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -7,7 +5,7 @@ import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-public class test {
+public class EasyWebsiteCopier {
 	
 	public static String getVersion(){
 		Document d;
