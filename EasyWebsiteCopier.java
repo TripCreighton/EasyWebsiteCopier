@@ -10,7 +10,7 @@ public class EasyWebsiteCopier {
 	public static String getVersion(){
 		Document d;
 		try {
-			d = Jsoup.connect("http://www.romponu.com/HTMLCopierVersion.html").get();
+			d = Jsoup.connect("http://romponu.com/version.php?k=MVLPQ5e2cJYn9MHM").get();
 			return d.text();
 		} catch (IOException e) {
 			return null;
@@ -18,7 +18,7 @@ public class EasyWebsiteCopier {
 	}
 	
 	public static String fixURL(String URL){
-		String newURL = new String();
+		String newURL = null;
 		if(!URL.contains("www.")){
 			newURL = "www." + URL;
 			if(!URL.contains("http://") || !URL.contains("https://")){
