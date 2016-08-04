@@ -1,9 +1,5 @@
 // Created by Trip Creighton
 // Website: www.romponu.com
-/* 
-	Licenses:
-	TODO: Insert licenses here.
- */
 package test;
 
 import java.awt.MouseInfo;
