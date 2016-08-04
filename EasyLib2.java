@@ -20,7 +20,7 @@ import java.util.Random;
  * @since 22/4/2016
  */
 public class EasyLib2 {
-	static Random r = new Random();
+	private static Random r = new Random();
 	String fileName;
 	String fileLocation;
 	/**
