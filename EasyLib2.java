@@ -279,10 +279,4 @@ public class EasyLib2 {
 		return (int)MouseInfo.getPointerInfo().getLocation().getY();
 	}
 	
-	public String doSomething(){
-		String temp1 = " ";
-		temp1 += System.currentTimeMillis();
-		return temp1;
-	}
-	
 }
