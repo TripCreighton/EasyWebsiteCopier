@@ -18,7 +18,7 @@ public class EasyWebsiteCopier {
 	}
 	
 	public static String fixURL(String URL){
-		String newURL = "";
+		String newURL = new String();
 		if(!URL.contains("www.")){
 			newURL = "www." + URL;
 			if(!URL.contains("http://") || !URL.contains("https://")){
