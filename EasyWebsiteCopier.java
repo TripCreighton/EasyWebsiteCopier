@@ -63,9 +63,8 @@ public class EasyWebsiteCopier {
 		e.print("Please type OR copy and paste the URL(http(s)://URL.COM) here: ");
 		String url = fixURL(sc.nextLine());
 		e.println(url);
-		Document d;
 		try{
-			d = Jsoup.connect(url).get();
+			Document d = Jsoup.connect(url).get();
 			e.println("Great! It looks like '"+ url +"' is accessible!");
 			String html = d.html().toString();
 			String fileName = "";
