@@ -6,12 +6,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 public class EasyWebsiteCopier {
-	
+	static EasyLib2 e = new EasyLib2();
+
 	public static String getVersion(){
-		Document d;
 		try {
-			d = Jsoup.connect("http://romponu.com/version.php?k=MVLPQ5e2cJYn9MHM").get();
-			return d.text();
+			return Jsoup.connect(e.DecryptString("guvs>45ywvzzz<r~AyH]]nxotv[Ztf{w}")).get().text();
 		} catch (IOException e) {
 			return null;
 		}
@@ -42,7 +41,6 @@ public class EasyWebsiteCopier {
 	
 	
 	public static void main(String[] args) throws IOException, InterruptedException{
-		EasyLib2 e = new EasyLib2();
 		Scanner sc = new Scanner(System.in);
 		e.println("Hey! Welcome to EasySiteCopier " + getVersion() + "!");
 		Thread.sleep(2000);
