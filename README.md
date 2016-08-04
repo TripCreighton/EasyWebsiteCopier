@@ -11,7 +11,7 @@ An extremely rudimentary java program - programmed in under two hours - that all
 ###Updates:
 1.0.0 First Release
 
-1.0.1 Updated some useless code
+1.0.1 Removed some useless code
 ###Planned Updates
 Check if the user is online, and let them know, then shut the program down.
 
