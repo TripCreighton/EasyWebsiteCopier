@@ -1,5 +1,4 @@
-// Created by Trip Creighton
-// Website: www.romponu.com
+
 package test;
 
 import java.awt.MouseInfo;
