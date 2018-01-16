@@ -15,7 +15,6 @@ import java.util.Random;
  * <p> Instantiating this class allows the user to easily do tasks such as get the computers screen width and height, write to log files, print to the console and many more
  * unique features!
  * 
- * @author romponu
  * @since 22/4/2016
  */
 public class EasyLib2 {
